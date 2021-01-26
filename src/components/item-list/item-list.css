@@ -1,0 +1,38 @@
+.item-list {
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    flex: 1 1 300px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.item-list__item {
+    position: relative;
+    cursor: pointer;
+}
+.item-list__item>span{
+    display: inline-flex;
+    box-sizing: border-box;
+    width: 100%;
+}
+.item-list__item>span:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.item-list__item::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.item-list__item:first-child::before {
+    content: '';
+    width: 0;
+    height: 0;
+}
+.item-list__item>span {
+    display: inline-block;
+    padding: 10px;
+}

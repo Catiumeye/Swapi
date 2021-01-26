@@ -1,0 +1,18 @@
+.list-details {
+    display: flex;
+    flex: 1 1 300px;
+    margin: 0 0 0 50px;
+    background: rgba(255, 255, 255, 0.1);
+    height: 240px;
+    border-radius: 8px;
+}
+.list-details__img {
+    width: 150px;
+    height: 200px;
+    padding: 20px;
+}
+.list-details__img>img {
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+}

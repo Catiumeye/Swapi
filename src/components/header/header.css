@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    flex: 1 1 1100px;
+    padding: 10px;
+    align-items: center;
+    height: 55px;
+}
+.header-tabs {
+    display: flex;
+    flex: 1 1 auto;
+    height: 70%;
+}
+.header-list {
+    transition: all .3s ease .0s;
+    border-radius: 5px;
+}
+.header-list:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.header-list a{
+    font-size: 24px;
+    color: rgb(25,128,109);
+    height: 100%;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+.header-list + .header-list{
+    margin-left: 30px;
+}
+.header-icon {
+    font-size: 38px;
+    font-weight: 500;
+    margin-right: 50px;
+}
